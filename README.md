@@ -36,12 +36,12 @@ This task significantly reinforced my understanding of **RESTful API integration
 
 ## OUTPUTS
 
-<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/96e8c71e-1abd-4138-9414-48af5fc8391b" />
+<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/995e2dfd-8ef9-45cf-b0db-43f96462f2b0" />
 ---
 
 ## HOW TO RUN
 1.  Download or clone this repository.
-2.  Navigate to the `Task1_Weather_Dashboard` folder.
+2.  Navigate to the `API-INTEGRATION` folder.
 3.  Open `index.html` in any modern web browser (Chrome, Firefox, Edge).
     * *Note: An active internet connection is required for the OpenWeatherMap API and Tailwind CSS CDN to function.*
 4.  Enter a valid city name (e.g., "Pune", "London", "New York") in the search bar and press "Search".
