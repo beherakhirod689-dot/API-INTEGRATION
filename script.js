@@ -1,5 +1,5 @@
 // NOTE: Replace 'YOUR_API_KEY' below with your actual OpenWeatherMap API key (string, in quotes)
-const apiKey = 'b0dab9c5880820a689e15a487d6001e5';
+const apiKey = 'YOUR_API_KEY_HERE';
 
 /**
  * Fetches weather data for the specified city from OpenWeatherMap API.
