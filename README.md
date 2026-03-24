@@ -36,7 +36,7 @@ This task significantly reinforced my understanding of **RESTful API integration
 
 ## OUTPUTS
 
-<img width="1920" height="1020" alt="Image" src="https://github.com/user-attachments/assets/995e2dfd-8ef9-45cf-b0db-43f96462f2b0" />
+<img width="868" height="1010" alt="Image" src="https://github.com/user-attachments/assets/6bcfddc2-24f1-45b3-b910-c0e4123c8a1d" />
 ---
 
 ## HOW TO RUN
