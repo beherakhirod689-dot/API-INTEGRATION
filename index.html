@@ -5,19 +5,36 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Professional Weather Dashboard</title>
   <!-- Tailwind CSS CDN -->
-  <script src="https://cdn.tailwindcss.com">k</script>
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body id="mainBg" class="min-h-screen flex items-center justify-center transition-all duration-500">
-  <div class="bg-white/80 p-8 rounded-xl shadow-lg max-w-md w-full">
-    <h1 class="text-2xl font-bold mb-4 text-center">Weather Dashboard</h1>
-    <form id="weatherForm" class="flex gap-2 mb-6">
-      <input type="text" id="cityInput" placeholder="Enter city name" required class="flex-1 px-3 py-2 border border-gray-300 rounded focus:outline-none focus:ring focus:border-blue-500" />
-      <button type="submit" class="px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700">Search</button>
-    </form>
-    <div id="weatherResult" class="text-center space-y-3 min-h-[100px]">
-      <!-- Weather details appear here -->
+<body id="mainBg" class="min-h-screen flex items-center justify-center p-4 transition-all duration-700 bg-gradient-to-br from-blue-100 via-white to-blue-300">
+  <div class="w-full max-w-lg bg-white/85 backdrop-blur-md p-8 rounded-2xl shadow-2xl border border-white/60">
+    <div class="text-center mb-6">
+      <p class="text-sm uppercase tracking-widest text-blue-700/80 font-semibold">Live Forecast</p>
+      <h1 class="text-3xl font-bold text-slate-900">Weather Dashboard</h1>
+      <p class="text-sm text-slate-600 mt-1">Search any city to view current weather.</p>
     </div>
-    <div id="errorMsg" class="mt-4 text-center text-red-600 font-medium"></div>
+
+    <form id="weatherForm" class="flex gap-2 mb-5">
+      <input
+        type="text"
+        id="cityInput"
+        placeholder="Enter city name (e.g. London)"
+        required
+        class="flex-1 px-4 py-2.5 rounded-lg border border-slate-300 bg-white/90 focus:outline-none focus:ring-2 focus:ring-blue-400 focus:border-blue-400 transition"
+      />
+      <button type="submit" class="px-5 py-2.5 bg-blue-600 text-white rounded-lg hover:bg-blue-700 active:scale-[0.98] transition font-medium">
+        Search
+      </button>
+    </form>
+
+    <div id="statusMsg" class="hidden text-center text-sm text-slate-600 mb-3"></div>
+
+    <div id="weatherResult" class="text-center min-h-[180px]">
+      <div class="text-slate-500 text-sm mt-8">No weather data yet. Search for a city to begin.</div>
+    </div>
+
+    <div id="errorMsg" class="mt-4 text-center text-red-600 font-medium text-sm"></div>
   </div>
   <script src="script.js"></script>
 </body>
